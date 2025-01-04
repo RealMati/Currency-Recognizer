@@ -1,12 +1,12 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'face_recognition.dart';
+import 'currency_recognizer.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   debugDefaultTargetPlatformOverride = TargetPlatform.fuchsia;
   runApp(MaterialApp(
-    home: FaceRecognition(),
+    home: CurrencyRecognizer(),
     debugShowCheckedModeBanner: false,
   ));
 }
